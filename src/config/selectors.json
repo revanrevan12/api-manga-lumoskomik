@@ -1,0 +1,44 @@
+{
+  "card": "article.lcard",
+  "title": [
+    "a.lcard-title"
+  ],
+  "cover": [
+    "img"
+  ],
+  "link": [
+    "a.lcard-cover"
+  ],
+  "author": [
+    "div.flex"
+  ],
+  "artist": [
+    "div.flex"
+  ],
+  "status": [
+    "div.grid"
+  ],
+  "synopsis": [
+    "div#synopsis-wrapper"
+  ],
+  "genres": [
+    "[class*='genre'] a",
+    "a[href*='genre']"
+  ],
+  "chapter": "a[href*=\"chapter\"]",
+  "chapterUrl": "",
+  "chapterNumber": [
+    "span.text-sm"
+  ],
+  "chapterTitle": [
+    "div.flex"
+  ],
+  "pages": [
+    "div.relative img"
+  ],
+  "popularUrl": "https://03.lumosgg.com/?page={page}&limit={limit}",
+  "latestUrl": "https://03.lumosgg.com/?sort=latest&page={page}&limit={limit}",
+  "searchUrl": "https://03.lumosgg.com/?s={q}",
+  "detailUrl": "",
+  "readerUrl": ""
+}
