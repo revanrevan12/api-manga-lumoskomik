@@ -1,0 +1,70 @@
+{
+  "name": "LumosKomik",
+  "version": "1.0.0",
+  "createdAt": "2026-08-20T01:33:29.156Z",
+  "lastVerified": "2026-08-20T01:33:29.156Z",
+  "baseUrl": "https://03.lumosgg.com",
+  "generatedAt": "2026-08-20T01:33:29.156Z",
+  "generator": "MANGA FASE 4",
+  "endpoints": [
+    "/api/health",
+    "/api/popular",
+    "/api/latest",
+    "/api/search",
+    "/api/manga/:slug",
+    "/api/manga/:slug/chapters",
+    "/api/chapter/:slug",
+    "/api/chapter/:slug/pages",
+    "/api/img"
+  ],
+  "selectors": {
+    "card": "article.lcard",
+    "title": [
+      "a.lcard-title"
+    ],
+    "cover": [
+      "img"
+    ],
+    "link": [
+      "a.lcard-cover"
+    ],
+    "author": [
+      "div.flex"
+    ],
+    "artist": [
+      "div.flex"
+    ],
+    "status": [
+      "div.grid"
+    ],
+    "synopsis": [
+      "div#synopsis-wrapper"
+    ],
+    "genres": [
+      "[class*='genre'] a",
+      "a[href*='genre']"
+    ],
+    "chapter": "a[href*=\"chapter\"]",
+    "chapterUrl": "",
+    "chapterNumber": [
+      "span.text-sm"
+    ],
+    "chapterTitle": [
+      "div.flex"
+    ],
+    "pages": [
+      "div.relative img"
+    ],
+    "popularUrl": "https://03.lumosgg.com/?page={page}&limit={limit}",
+    "latestUrl": "https://03.lumosgg.com/?sort=latest&page={page}&limit={limit}",
+    "searchUrl": "https://03.lumosgg.com/?s={q}",
+    "detailUrl": "",
+    "readerUrl": ""
+  },
+  "sampleUrls": [],
+  "health": {
+    "lastCheck": "2026-08-20T01:33:29.156Z",
+    "status": "healthy",
+    "fields": {}
+  }
+}
